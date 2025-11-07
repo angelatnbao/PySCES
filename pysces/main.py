@@ -31,7 +31,8 @@ def _check_settings():
     if 'p0' not in local:
         opts.p0 = [0.0]*nel
 
-
+    print("GIT demo")
+    
     #   set input format to the same type of QC runner
     if opts.mol_input_format == '':
         opts.mol_input_format = opts.QC_RUNNER
